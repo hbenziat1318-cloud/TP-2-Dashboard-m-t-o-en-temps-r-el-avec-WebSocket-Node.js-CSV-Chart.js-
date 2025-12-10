@@ -1,12 +1,13 @@
-```
-markdown
-```
 # TP 2 : Dashboard météo en temps réel avec WebSocket (Node.js + CSV + Chart.js)
 
+```
+```
 ##  Description du projet
 
 Application web de visualisation météorologique en temps réel qui affiche progressivement des données météo via une connexion WebSocket. Le serveur Node.js lit un fichier CSV contenant des données météorologiques et les transmet au client web toutes les 3 secondes, permettant une visualisation progressive des données.
 
+```
+```
 
 ##  Objectifs pédagogiques
 
@@ -47,11 +48,14 @@ meteo-realtime/
 - npm (généralement inclus avec Node.js)
 - Navigateur web moderne
 
+
 ### Étapes d'installation
 
 1. **Cloner le dépôt**
+   
 ```bash
 git clone https://github.com/hbenziat1318-cloud/TP-2-Dashboard-m-t-o-en-temps-r-el-avec-WebSocket-Node.js-CSV-Chart.js-.git
+
 cd TP-2-Dashboard-m-t-o-en-temps-r-el-avec-WebSocket-Node.js-CSV-Chart.js-
 ```
 
@@ -126,5 +130,6 @@ const interval = 3000; // Intervalle d'envoi (3 secondes)
 **Réalisée Par :** BENZIAT hana
 <br>
 **Encadrant par:** Mr.LACHGAR mohammed
-**Date:**08/12/2025
+<br>
+**Date:** 08/12/2025
 
